@@ -9,9 +9,7 @@ This repository contains SQL scripts for analyzing sales data from Walmart store
 - [SQL Files](#sql-files)
 - [Procedure](#procedure)
 - [Results](#results)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
