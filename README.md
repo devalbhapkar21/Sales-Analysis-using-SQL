@@ -19,11 +19,39 @@ The Walmart Sales Analysis project aims to provide insights into the company's s
 
 ## Data Structure
 
-[... Data Structure section remains the same ...]
+The sales data is stored in a MySQL database named `WalmartSales`. The database contains a single table named `sales` with the following columns:
+
+- `invoice_id`: The unique identifier for each sales transaction.
+- `branch`: The code representing the branch where the sale occurred.
+- `city`: The city where the branch is located.
+- `customer_type`: The type of customer (e.g., member, normal).
+- `gender`: The gender of the customer.
+- `product_line`: The product line or category of the purchased item.
+- `unit_price`: The price of a single unit of the product.
+- `quantity`: The quantity of units purchased.
+- `VAT`: The value-added tax applied to the sale.
+- `total`: The total amount of the sale.
+- `date`: The date of the sale.
+- `time`: The time of the sale.
+- `payment_method`: The payment method used by the customer.
+- `cogs`: The cost of goods sold for the transaction.
+- `gross_margin_percentage`: The gross margin percentage for the transaction.
+- `gross_income`: The gross income generated from the sale.
+- `rating`: The rating provided by the customer for the transaction.
+- `time_of_day`: The time of day when the sale occurred (morning, afternoon, or evening).
+- `day_name`: The day of the week when the sale occurred.
+- `month_name`: The month in which the sale occurred.
+
 
 ## SQL Files
 
-[... SQL Files section remains the same ...]
+The repository contains the following SQL files:
+
+1. `walmart_table_create.sql`: This file creates the `WalmartSales` database and the `sales` table. It also includes the SQL queries used for feature engineering, such as adding columns for `time_of_day`, `day_name`, and `month_name`.
+
+2. `Sales-And-Customer-Analysis.sql`: This file contains SQL queries focused on analyzing sales trends, customer behaviors, and customer-related metrics.
+
+3. `generic_product_analysis.sql`: This file includes SQL queries for analyzing product performance, revenue generation, and other general aspects of the sales data.
 
 ## Procedure
 
