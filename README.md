@@ -1,4 +1,4 @@
-# Walmart Sales Analysis
+# Sales data Analysis
 
 This repository contains SQL scripts for analyzing sales data from Walmart stores. The analysis covers various aspects, including sales trends, customer behaviors, product performance, and revenue generation.
 
@@ -13,7 +13,7 @@ This repository contains SQL scripts for analyzing sales data from Walmart store
 
 ## Introduction
 
-The Walmart Sales Analysis project aims to provide insights into the company's sales data by leveraging SQL queries. The analysis focuses on extracting valuable information from the sales dataset, enabling data-driven decision-making and strategy optimization.
+This Sales Analysis project aims to provide insights into the company's sales data by leveraging SQL queries. The analysis focuses on extracting valuable information from the sales dataset, enabling data-driven decision-making and strategy optimization.
 
 ## Data Structure
 
